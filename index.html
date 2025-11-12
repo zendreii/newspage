@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Balitang News</div>
+        <nav>
+            <ul>
+                <li><a href="#landing">Home</a></li>
+                <li><a href="#editorial">Editorial</a></li>
+                <li><a href="#cartoon">Cartoon</a></li>
+                <li><a href="#fashion">Fashion & Lifestyle</a></li>
+                <li><a href="#entertainment">Entertainment</a></li>
+                <li><a href="#sports">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Landing Page -->
+        <section id="landing" class="page landing">
+            <h1>Welcome to Balitang News</h1>
+            <p>The Philippine's leading daily source of latest news, lifestyle, entertainment, and more.</p>
+            <img src="anchorman-news-update-meme-3.jpg" alt="Newsroom" class="hero">
+            <div class="featured-articles">
+                <h2>Featured Articles</h2>
+                <ul class="article-links">
+                    <li><a href="#editorial-1">The Changing World of Journalism</a></li>
+                    <li><a href="#fashion-1">Trendy Autumn Styles</a></li>
+                    <li><a href="#entertainment-1">Movie Premieres</a></li>
+                    <li><a href="#sports-1">Football</a></li>
+                    <li><a href="#cartoon-1">Political Cartoon: The Big Debate</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Editorial Page -->
+        <section id="editorial" class="page editorial">
+            <h2>Editorial</h2>
+            <article id="editorial-1">
+                <h3>The Changing World of Journalism</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna nec urna cursus fermentum.</p>
+                <a class="read-more" href="#editorial-1-full">Read More</a>
+            </article>
+            <article id="editorial-2">
+                <h3>Opinion: The Year in Review</h3>
+                <p>Phasellus non felis in augue lobortis pretium. Maecenas accumsan commodo elit.</p>
+                <a class="read-more" href="#editorial-2-full">Read More</a>
+            </article>
+        </section>
+        <!-- Article expansion (could be on separate page or modal) -->
+        <section id="editorial-1-full" class="article-full">
+            <h3>The Changing World of Journalism - Full Article</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Quisque consequat pretium leo eu gravida. Etiam sed suscipit ligula, vel blandit nisi.</p>
+            <a href="#editorial" class="back-link">Back to Editorial</a>
+        </section>
+        <section id="editorial-2-full" class="article-full">
+            <h3>Opinion: The Year in Review - Full Article</h3>
+            <p>Phasellus non felis in augue lobortis pretium. Maecenas accumsan, commodo elit. <br> Nullam eget aliquet sem, nec dictum lorem.</p>
+            <a href="#editorial" class="back-link">Back to Editorial</a>
+        </section>
+
+        <!-- Cartoon Page -->
+        <section id="cartoon" class="page cartoon">
+            <h2>Cartoon</h2>
+            <div class="cartoon-gallery">
+                <a href="#cartoon-1"><img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Cartoon 1"></a>
+                <a href="#cartoon-2"><img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=400&q=80" alt="Cartoon 2"></a>
+                <a href="#cartoon-3"><img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Cartoon 3"></a>
+            </div>
+            <p>Latest political and social cartoons to enlighten and entertain.</p>
+        </section>
+        <section id="cartoon-1" class="article-full">
+            <h3>Political Cartoon: The Big Debate</h3>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Cartoon 1">
+            <p>Satirical illustration of recent political debates and policies.</p>
+            <a href="#cartoon" class="back-link">Back to Cartoon</a>
+        </section>
+        <section id="cartoon-2" class="article-full">
+            <h3>Social Satire</h3>
+            <img src="https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=400&q=80" alt="Cartoon 2">
+            <p>Humorous look at modern-day social trends.</p>
+            <a href="#cartoon" class="back-link">Back to Cartoon</a>
+        </section>
+        <section id="cartoon-3" class="article-full">
+            <h3>Life in the City</h3>
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Cartoon 3">
+            <p>A lighthearted take on the hustle and bustle of urban living.</p>
+            <a href="#cartoon" class="back-link">Back to Cartoon</a>
+        </section>
+
+        <!-- Fashion & Lifestyle Page -->
+        <section id="fashion" class="page fashion">
+            <h2>Fashion & Lifestyle</h2>
+            <div class="fashion-flex">
+                <div class="fashion-article" id="fashion-1">
+                    <h3><a href="#fashion-1-full">Trendy Autumn Styles</a></h3>
+                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Fashion 1">
+                    <p>Discover the latest trends for this season.</p>
+                </div>
+                <div class="fashion-article" id="fashion-2">
+                    <h3><a href="#fashion-2-full">Healthy Living Tips</a></h3>
+                    <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Healthy Living">
+                    <p>Explore how to stay fit and live well.</p>
+                </div>
+            </div>
+        </section>
+        <section id="fashion-1-full" class="article-full">
+            <h3>Trendy Autumn Styles - Full Article</h3>
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Fashion 1">
+            <p>Fashionistas everywhere are embracing cozy knits and bold earth tones this fall...</p>
+            <a href="#fashion" class="back-link">Back to Fashion & Lifestyle</a>
+        </section>
+        <section id="fashion-2-full" class="article-full">
+            <h3>Healthy Living Tips - Full Article</h3>
+            <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Healthy Living">
+            <p>Maintain wellness and balance by adopting simple habits, from yoga to mindful eating...</p>
+            <a href="#fashion" class="back-link">Back to Fashion & Lifestyle</a>
+        </section>
+
+        <!-- Entertainment Page -->
+        <section id="entertainment" class="page entertainment">
+            <h2>Entertainment</h2>
+            <div class="entertainment-list">
+                <div class="entertainment-item" id="entertainment-1">
+                    <h3><a href="#entertainment-1-full">Movie Premieres</a></h3>
+                    <img src="https://images.unsplash.com/photo-1517602302552-13e67c3b1604?auto=format&fit=crop&w=400&q=80" alt="Cinema">
+                    <p>All the hottest movies hitting theaters this week.</p>
+                </div>
+                <div class="entertainment-item" id="entertainment-2">
+                    <h3><a href="#entertainment-2-full">Celebrity Interviews</a></h3>
+                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80" alt="Interview">
+                    <p>Exclusive talks with your favorite stars.</p>
+                </div>
+            </div>
+        </section>
+        <section id="entertainment-1-full" class="article-full">
+            <h3>Movie Premieres - Full Article</h3>
+            <img src="https://images.unsplash.com/photo-1517602302552-13e67c3b1604?auto=format&fit=crop&w=400&q=80" alt="Cinema">
+            <p>A look at the most anticipated movie releases of the month...</p>
+            <a href="#entertainment" class="back-link">Back to Entertainment</a>
+        </section>
+        <section id="entertainment-2-full" class="article-full">
+            <h3>Celebrity Interviews - Full Article</h3>
+            <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=400&q=80" alt="Interview">
+            <p>We sit down with A-listers to discuss their latest projects and life in the spotlight...</p>
+            <a href="#entertainment" class="back-link">Back to Entertainment</a>
+        </section>
+
+        <!-- Sports Page -->
+        <section id="sports" class="page sports">
+            <h2>Sports</h2>
+            <div class="sports-flex">
+                <div class="sports-result" id="sports-1">
+                    <h3><a href="#sports-1-full">Football</a></h3>
+                    <p>Latest scores and match reports.</p>
+                </div>
+                <div class="sports-result" id="sports-2">
+                    <h3><a href="#sports-2-full">Basketball</a></h3>
+                    <p>NBA highlights and big plays of the week.</p>
+                </div>
+                <div class="sports-result" id="sports-3">
+                    <h3><a href="#sports-3-full">Tennis</a></h3>
+                    <p>Grand Slam results and player interviews.</p>
+                </div>
+            </div>
+        </section>
+        <section id="sports-1-full" class="article-full">
+            <h3>Football - Full Article</h3>
+            <p>All the excitement and drama from this week's matches...</p>
+            <a href="#sports" class="back-link">Back to Sports</a>
+        </section>
+        <section id="sports-2-full" class="article-full">
+            <h3>Basketball - Full Article</h3>
+            <p>Catch up on the latest NBA action, top plays, and player profiles...</p>
+            <a href="#sports" class="back-link">Back to Sports</a>
+        </section>
+        <section id="sports-3-full" class="article-full">
+            <h3>Tennis - Full Article</h3>
+            <p>Results from major tournaments and exclusive interviews...</p>
+            <a href="#sports" class="back-link">Back to Sports</a>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 News Portal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
