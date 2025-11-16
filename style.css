@@ -33,13 +33,31 @@ header {
     width: 100%;
     background: #ffd700;
     color: #222e38;
-    text-align: center;
+    text-align: left;           /* left-align for marquee effect */
     font-weight: 600;
     padding: 0.55rem 0;
     font-size: 1.02rem;
     letter-spacing: .02em;
     box-shadow: 0 1px 8px rgba(192,156,43,.09);
+    overflow: hidden;           /* Important for scrolling text */
+    position: relative;
 }
+
+.notice-bar .notice-text {
+    display: inline-block;
+    white-space: nowrap;
+    padding-left: 100%;
+    animation: marquee 13s linear infinite;
+    font-size: 1.02rem;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 
 .logo {
     font-weight: bold;
