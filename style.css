@@ -44,7 +44,6 @@ header {
 }
 
 .notice-bar .notice-text {
-    display: inline-block;
     white-space: nowrap;
     animation: marquee 13s linear infinite;
     font-size: 1.02rem;
