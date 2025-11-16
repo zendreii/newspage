@@ -32,8 +32,7 @@ header {
 .notice-bar {
     width: 100%;
     background: #ffd700;
-    color: #222e38;
-    text-align: left;           /* left-align for marquee effect */
+    color: #222e38;           /* left-align for marquee effect */
     font-weight: 600;
     padding: 0.55rem 0;
     font-size: 1.02rem;
@@ -57,7 +56,6 @@ header {
   }
   100% {
     transform: translateX(-100%);
-  }
 }
 
 .logo {
